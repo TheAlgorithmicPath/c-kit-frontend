@@ -1,38 +1,181 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Salsa&display=swap');
+
+:root{
+  --color-primary-light: #b58df7;
+  --color-primary: #9155F3;
+  --color-primary-dark: #673cad;
+  
+  --color-secondary-light: #ffda54;
+  --color-secondary: #ffc800; 
+  --color-secondary-dark: #e8b600;
+
+  --color-primary-shadow-dark: #844ddd;
+  --color-primary-shadow-light: #ccb1f9;
+
+  --color-font-dark: #25264e;
+  --color-font-light: #bdbdcb;
+  
+  --color-light: #eaeaea;
+  --color-dark: #17172f;
+  
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+
+  /*     ////////////////////////////////////////////////////////////////////////
+                                  FONT SIZES
+         ////////////////////////////////////////////////////////////////////////
+  */
+
+  --heading-h1: 3rem; /* 48px */
+  --heading-h2: 2.5rem; /* 40px */
+  --heading-h3: 2.062rem; /* 33px */
+  --heading-h4: 1.75rem; /* 28px */
+  --heading-h5: 1.43rem; /* 23px */
+  --heading-h6: 1.18rem; /* 19px */ 
+  
+  --font-size-body: 1rem /* 16px */;
+  --font-size-small: 0.875rem; /* 14px */
+  --font-size-smaller: 0.688rem; /* 11px */
+
+  /*     ////////////////////////////////////////////////////////////////////////
+                                  SHADOWS
+         ////////////////////////////////////////////////////////////////////////
+  */
+  
+  --bnt-shadow: 4px 4px 8px #e8b600;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*     ////////////////////////////////////////////////////////////////////////
+       ////////////////////////////////////////////////////////////////////////
+                                BASE
+       ////////////////////////////////////////////////////////////////////////                         
+       ////////////////////////////////////////////////////////////////////////
+*/
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Salsa', cursive;
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3{
+  font-family: 'Salsa', cursive;
+}
+::selection {
+  background-color: var(--color-primary-dark);
+  color: var(--color-white); 
+}
+
+/*     ////////////////////////////////////////////////////////////////////////
+       ////////////////////////////////////////////////////////////////////////
+                                MEDIA QUERIES
+       ////////////////////////////////////////////////////////////////////////                         
+       ////////////////////////////////////////////////////////////////////////
+*/
+
+@media screen and (max-width: 68.75em) {
+  html {
+    font-size: 70%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media screen and (max-width: 62.5em) {
+  html {
+    font-size: 65%;
+  }
+}
+
+@media screen and (max-width: 56.25em) {
+  html {
+    font-size: 62%;
+  }
+}
+
+@media screen and (max-width: 39.5em) {
+  html {
+    font-size: 57%;
+  }
+}
+
+@media screen and (max-width: 31.25em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+
+/*     ////////////////////////////////////////////////////////////////////////
+       ////////////////////////////////////////////////////////////////////////
+                                UTILITIES
+       ////////////////////////////////////////////////////////////////////////                         
+       ////////////////////////////////////////////////////////////////////////
+*/
+
+.d-flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+.u-center-text {
+  text-align: center !important;
+}
+.u-margin-bottom-small {
+  margin-bottom: 0.5rem !important;
+}
+.u-margin-bottom-medium {
+  margin-bottom: 2.5rem !important;
+}
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important;
+}
+.u-margin-top-medium {
+  margin-top: 2rem !important;
+}
+.u-margin-top-small {
+  margin-top: 1rem !important;
+}
+
+.u-margin-top-big {
+  margin-top: 5rem !important;
+}
+.u-margin-top-huge {
+  margin-top: 9rem !important;
+}
+/*     ////////////////////////////////////////////////////////////////////////
+       ////////////////////////////////////////////////////////////////////////
+                                COMPONENTS
+       ////////////////////////////////////////////////////////////////////////                         
+       ////////////////////////////////////////////////////////////////////////
+*/
+
+.btn_primary_dark{
+  cursor: pointer;
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-secondary-light) 20%,
+    var(--color-secondary-dark)
+  );
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding: 0.7rem 2rem;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.2rem;
 }
