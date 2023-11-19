@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Salsa&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Salsa&display=swap");
 
-:root{
+:root {
   --color-primary-light: #b58df7;
-  --color-primary: #9155F3;
+  --color-primary: #9155f3;
   --color-primary-dark: #673cad;
-  
+
   --color-secondary-light: #ffda54;
-  --color-secondary: #ffc800; 
+  --color-secondary: #ffc800;
   --color-secondary-dark: #e8b600;
 
   --color-primary-shadow-dark: #844ddd;
@@ -15,13 +15,12 @@
 
   --color-font-dark: #25264e;
   --color-font-light: #bdbdcb;
-  
+
   --color-light: #eaeaea;
   --color-dark: #17172f;
-  
+
   --color-white: #ffffff;
   --color-black: #000000;
-
 
   /*     ////////////////////////////////////////////////////////////////////////
                                   FONT SIZES
@@ -33,8 +32,8 @@
   --heading-h3: 2.062rem; /* 33px */
   --heading-h4: 1.75rem; /* 28px */
   --heading-h5: 1.43rem; /* 23px */
-  --heading-h6: 1.18rem; /* 19px */ 
-  
+  --heading-h6: 1.18rem; /* 19px */
+
   --font-size-body: 1rem /* 16px */;
   --font-size-small: 0.875rem; /* 14px */
   --font-size-smaller: 0.688rem; /* 11px */
@@ -43,7 +42,7 @@
                                   SHADOWS
          ////////////////////////////////////////////////////////////////////////
   */
-  
+
   --bnt-shadow: 4px 4px 8px #e8b600;
 }
 
@@ -58,9 +57,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Noto Sans', sans-serif;
-  font-family: 'Salsa', cursive;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Salsa", cursive;
   scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
 }
 
 * {
@@ -72,18 +72,22 @@ a {
   text-decoration: none;
 }
 
-p{
-  font-family: 'Noto Sans', sans-serif;
+p {
+  font-family: "Noto Sans", sans-serif;
 }
 
-h1, h2, h3{
-  font-family: 'Salsa', cursive;
+h1,
+h2,
+h3 {
+  font-family: "Salsa", cursive;
 }
 ::selection {
   background-color: var(--color-primary-dark);
-  color: var(--color-white); 
+  color: var(--color-white);
 }
-
+img {
+  max-width: 100%;
+}
 /*     ////////////////////////////////////////////////////////////////////////
        ////////////////////////////////////////////////////////////////////////
                                 MEDIA QUERIES
@@ -91,7 +95,7 @@ h1, h2, h3{
        ////////////////////////////////////////////////////////////////////////
 */
 
-@media screen and (max-width: 68.75em) {
+/* @media screen and (max-width: 68.75em) {
   html {
     font-size: 70%;
   }
@@ -119,8 +123,7 @@ h1, h2, h3{
   html {
     font-size: 55%;
   }
-}
-
+} */
 
 /*     ////////////////////////////////////////////////////////////////////////
        ////////////////////////////////////////////////////////////////////////
@@ -166,7 +169,7 @@ h1, h2, h3{
        ////////////////////////////////////////////////////////////////////////
 */
 
-.btn_primary_dark{
+.btn_primary_dark {
   cursor: pointer;
   background-image: linear-gradient(
     to bottom,

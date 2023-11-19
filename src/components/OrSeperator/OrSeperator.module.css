@@ -1,0 +1,13 @@
+.seprator {
+  color: var(--color-font-light);
+  font-size: var(--font-size-smaller);
+  padding: 0em 1em;
+  margin-bottom: 2rem;
+}
+
+.line {
+  background-color: var(--color-font-light);
+  height: 1px;
+  flex: 1;
+  margin: 0.2em 2em;
+}

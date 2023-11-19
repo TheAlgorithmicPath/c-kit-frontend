@@ -1,11 +1,10 @@
-import './App.css';
+import "./App.css";
+import Login from "./pages/Login/Login";
 
 function App() {
   return (
     <div className="App">
-      <h1>My React App</h1>
-      <p>My first React app</p>
-      <button className='btn_primary_dark'>Click me!</button>
+      <Login /> 
     </div>
   );
 }
