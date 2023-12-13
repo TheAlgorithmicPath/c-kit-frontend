@@ -1,5 +1,5 @@
 import styles from "./Header.module.css";
-import Toggle from "../../Assets/Header/Toggle.svg";
+import Toggle from "../../Assets/Header/Toggle Switch Base.svg";
 function Header() {
   return (
     <header className={`${styles["header"]}`}>
