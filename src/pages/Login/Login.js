@@ -17,7 +17,7 @@ export default function Login() {
   return (
     <article className={`${styles["login"]} u-center-text  `}>
       <section className={styles["login-svg"]}>
-        <img src={loginSvg}></img>
+        <img src={loginSvg} alt="login pic"></img>
       </section>
       <section className={styles["login-form"]}>
         <h1 className="">Welcome Back!!</h1>

@@ -1,0 +1,32 @@
+.SignUp {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 90px 2rem 0px 2rem;
+}
+.SignUp-form {
+  max-width: 450px;
+  box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  flex: 1;
+}
+.SignUp-svg {
+  margin-left: -120px;
+  margin-top: 40px;
+}
+.SignUp p {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.SignUp a {
+  color: #0047ff;
+}
+.Have-account {
+  margin-top: 30px;
+}
+.Term-condition {
+  margin-top: 37px;
+}
