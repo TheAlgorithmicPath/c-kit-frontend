@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+![Screenshot 2023-12-19 181037](https://github.com/sejalgupta385/README-File/assets/148670613/181e6ed0-b53e-4ae8-8e91-26775850b7be) 
+# *README-file*
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Our platform is  designed to redefine the student experience by connecting college students with mentors and experienced seniors.This platform will provide an integrated ecosystem that empowers students to navigate their educational and professional journeys with confidence and clarity.
 
-## Available Scripts
+This system empowers students to break free from the confines of their immediate academic environment, fostering connections with mentors not only from their own college but also from institutions across the globe.This platform aims to fill the gap in educational support systems, offering a unique and essential resource for students, enabling them to maximize their academic potential and confidently steer their career pathways.
 
-In the project directory, you can run:
 
-### `npm start`
+With our platform, no student will have to journey alone; they will have the guidance and community they need to succeed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+- **Personalized Guidance:**  Students can connect with experienced seniors and mentors in their fields, fostering one-on-one interactions for tailored advice and support.
+- **Search and Filter Options:** Intuitive search and filter functions will allow students to find mentors and peers based on criteria like academic background, interests, and career aspirations.
+- **Notification System:** A smart notification system will keep students informed about mentor availability, discussions, and relevant content.
+- **Two-Way Mentorship:** Beyond receiving guidance, students can contribute by providing mentorship to juniors or mentees.
+- **User-Friendly Interface:** Our user-centric design will ensure an intuitive, easy-to-navigate platform accessible across various devices.
+- **Upload Resources:** Students can share and access a vast array of resources related to their field, creating a dynamic repository for academic and career development.
+- **Time-Saving Efficiency:** This platform will save time for both mentors and mentees, streamlining the mentoring process and allowing for more focused and effective interactions.
+  
+## Tech Framework 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Client** 
+- React
+- CSS
+- JS
 
-### `npm test`
+## Feedback 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you have any feedback, please fill out this form -------------
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Support 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For support, email ----------- or join our Slack channel.
