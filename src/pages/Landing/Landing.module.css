@@ -1,27 +1,28 @@
-
 .landing{
   margin: 0;
-  padding: 0;
+
   position:relative;
 }
 .hero-section {
   height: 100vh;
-  background: url("../../Assets/Landing\ page/Hero-svg.svg") -10% 20px / contain no-repeat;
+  background: url("../../Assets/Landing\ page/Hero-svg.svg") -1% 20px / contain no-repeat;
+  background-size: 52%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .hero-text {
-  margin-right: 4rem;
-  margin-bottom: 5rem;
+  position: relative;
+  left: 70px;
+  margin-top: -80px;
 }
 
 .hero-text h1 {
   /* use body variable */
-  font-size: 4.5rem;
-  font-weight: 400;
+  font-size: 5rem;
+  font-weight: 30;
   margin: 0px;
 }
 
@@ -31,15 +32,16 @@
 }
 
 .hero-text button {
-  margin-top: 2.6rem;
-  padding: 0.9em 4em;
-  border-radius: 20.822px;
+
+  border-radius: 19px;
   background: #ffc701;
   box-shadow: 3.82436px 4.24929px 0px 0px rgba(0, 0, 0, 0.5);
   font-size: 1rem;
   border: none;
   position: relative;
-  cursor: pointer;
+  bottom: -45px;
+  
+  
 }
 
 .hero-text button::after {
@@ -56,8 +58,7 @@
 
 .benefit-container {
   display: flex;
-  /* align-items: stretch; */
-  /* justify-content: center; */
+  
 }
 .benefit-section h2 {
   color: #26264f;
@@ -299,7 +300,7 @@ background-image: url("../../Assets/Landing page/Vector2.svg");
 background-position: bottom left;
 background-repeat: no-repeat;
 background-size: contain;
-padding-bottom:29rem  ;
+padding-bottom:24rem  ;
 margin-top:-20rem;
 
 }
@@ -337,3 +338,74 @@ margin-top:-20rem;
 .hide {
   opacity: 0;
 }
+/* Existing CSS code */
+
+/* Media query for larger laptop screens */
+@media only screen and (min-width: 1366px) {
+  /* Adjustments for larger laptop screens */
+
+  .hero-section {
+    padding: 3rem;
+  }
+
+  .hero-text {
+    margin-right: 6rem;
+    margin-bottom: 6rem;
+  }
+
+  .hero-text h1 {
+    font-size: 5rem;
+  }
+
+  .hero-text p {
+    font-size: 2rem;
+  }
+
+  .hero-text button {
+    margin-top: 3rem;
+    padding: 1em 5em;
+    font-size: 1.2rem;
+  }
+
+  /* Additional adjustments for larger screens... */
+}
+
+/* Media query for standard laptop screens */
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+  /* Adjustments for standard laptop screens */
+
+  .hero-section {
+    padding: 2.5rem;
+  }
+
+  .hero-text {
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .hero-text h1 {
+    font-size: 4.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1.8rem;
+  }
+
+  .hero-text button {
+    margin-top: 2.6rem;
+    padding: 0.9em 4em;
+    font-size: 1rem;
+  }
+
+  /* Additional adjustments for standard screens... */
+}
+
+/* Default styles for all screen sizes */
+/* Keep your existing styles here */
+.landing {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* Other existing styles... */
