@@ -1,0 +1,18 @@
+.skill-tab {
+  width: 93px;
+  height: 35px;
+
+  border-radius: 30px;
+  border: 1px solid #b5b5b5;
+  padding: 10px 10px 10px 20px;
+  display: flex;
+  align-items: center;
+
+  color: #a8a8a8;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}

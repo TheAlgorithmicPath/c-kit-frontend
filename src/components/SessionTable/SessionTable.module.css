@@ -1,0 +1,25 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  height: 300px;
+}
+.th,
+td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+
+  color: #7d7c7c;
+  font-family: Noto Sans;
+  font-size: 21px;
+
+  font-weight: 400;
+}
+
+tr:hover:not(:first-child) {
+  background-color: var(--color-primary);
+
+}
+tr:hover:not(:first-child) td {
+  color: white; 
+}
