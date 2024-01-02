@@ -1,4 +1,4 @@
-import React, { useState, useEffect }  from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./Landing.module.css";
 import Benefit from "../../components/Benefit/Benefit";
 import feature1 from "../../Assets/Landing page/Rectangle (2).svg";
@@ -11,14 +11,8 @@ import image2 from "../../Assets/Landing page/Ellipse 2.png";
 import image3 from "../../Assets/Landing page/“.svg";
 import image4 from "../../Assets/Landing page/”.svg";
 import image5 from "../../Assets/Landing page/Frame 28.svg";
-// import image6 from "../../Assets/Landing page/Rectangle 15.svg";
-import VideoBackground from "../../Assets/Landing page/Vid-Bg.svg";
-import videoicon1 from "../../Assets/Landing page/icon _play_circle.svg";
-import videoicon2 from "../../Assets/Landing page/Rectangle 18.svg";
-import videoicon3 from "../../Assets/Landing page/Rectangle 17.svg";
+
 import Bars from "../../components/Bars/Bars";
-
-
 
 const Landing = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -146,18 +140,23 @@ const Landing = () => {
         </div>
         <article className={`${styles["below-testimonial"]}`}>
           <p className={`${styles["below-testimonial-text"]}`}>
-            Elevate Your Journey with [Mentor Finding Website]
+          "Elevate Your Journey with Guiding Stars!"
           </p>
         </article>
       </section>
       <section>
         <article className={`${styles["video"]}`}>
-          <img
-            className={`${styles["video-cutting"]}`}
-            src={VideoBackground}
-            alt=" video-demo"
-          />
-          <div className={`${styles["vidoe-icons"]}`}>
+          {/* <div className={`${styles["info-textbox"]}`}> */}
+            <iframe
+              className={`${styles["videoPlayer"]}`}
+              src="https://www.youtube.com/embed/oTKtgI-loaU?si=7QsEFvM44NQbarbO"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          {/* </div> */}
+          {/* <div className={`${styles["vidoe-icons"]}`}>
             <img
               className={`${styles["play-button"]}`}
               src={videoicon1}
@@ -175,7 +174,7 @@ const Landing = () => {
                 alt="demo"
               />
             </div>
-          </div>
+          </div> */}
         </article>
       </section>
 
@@ -237,7 +236,12 @@ const Landing = () => {
         src={uparrow}
         alt="round background uparrow"
       /> */}
-      <button onClick={scrollToTop} className={`${styles.backToTop} ${isVisible ? styles.show : styles.hide}`}>
+      <button
+        onClick={scrollToTop}
+        className={`${styles.backToTop} ${
+          isVisible ? styles.show : styles.hide
+        }`}
+      >
         &#8593;
       </button>
     </article>
