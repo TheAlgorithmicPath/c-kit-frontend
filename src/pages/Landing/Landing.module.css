@@ -1,28 +1,27 @@
 .landing{
   margin: 0;
-
+  padding: 0;
   position:relative;
 }
 .hero-section {
   height: 100vh;
-  background: url("../../Assets/Landing\ page/Hero-svg.svg") -1% 20px / contain no-repeat;
-  background-size: 52%;
+  background: url("../../Assets/Landing\ page/Hero-svg.svg") -5% 10px / contain no-repeat;
+  background-size: 850px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .hero-text {
-  position: relative;
-  left: 70px;
-  margin-top: -80px;
+  margin-right: 6rem;
+  margin-bottom: 9rem;
 }
 
 .hero-text h1 {
   /* use body variable */
-  font-size: 5rem;
-  font-weight: 30;
+  font-size: 4.5rem;
+  font-weight: 400;
   margin: 0px;
 }
 
@@ -32,16 +31,15 @@
 }
 
 .hero-text button {
-
-  border-radius: 19px;
+  margin-top: 2.6rem;
+  padding: 0.9em 4em;
+  border-radius: 20.822px;
   background: #ffc701;
   box-shadow: 3.82436px 4.24929px 0px 0px rgba(0, 0, 0, 0.5);
   font-size: 1rem;
   border: none;
   position: relative;
-  bottom: -45px;
-  
-  
+  cursor: pointer;
 }
 
 .hero-text button::after {
@@ -58,6 +56,9 @@
 
 .benefit-container {
   display: flex;
+
+  /* align-items: stretch; */
+  
   
 }
 .benefit-section h2 {
@@ -66,28 +67,29 @@
   font-size: 64px;
   /* font-style: normal; */
   font-weight: 400;
+
 }
+
 .social-figures{
   margin: 6rem 0rem 0rem 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.social-figures article {
-  padding: 0rem 6rem;
+.panel-container {
+  padding: 3rem 6rem;
   display: flex;
   gap: 10rem;
   justify-content: space-between;
-  /* align-content: center; */
-  /* justify-self: center; */
+   align-content: center;
+  justify-self: center; 
   background: rgba(170, 128, 249, 0.15);
   /* width: 100%; */
-  /* border-radius: 20px; */
-  border-radius: 0.rem;
+   border-radius: 20px; 
+
 }
-.social-figures p{
-  margin: 0;
-}
+
+
 .img-container {
   transform: translateY(110px);
 }
@@ -136,18 +138,18 @@
 .info-textbox {
   padding: 0rem 27rem 0rem 27rem;
   position: relative;
-  right: 28px;
-  transform: translateY(-20px);
+  right: 25px;
+  top: 28px;
 }
 
 .comma2 {
   color: black !important ;
-  transform: translateY(-650px);
+  transform: translateY(-550px);
   position: relative;
-  right: -1045px;
+  right: -1030px;
 }
 .right-arrow {
-  transform: translateY(-921px);
+  transform: translateY(-830px);
   position: relative;
   right: -1087px;
   align-items: center;
@@ -157,68 +159,50 @@
 .below-testimonial {
   background-color: #ffc701;
   border-radius: 35px;
-  width: 800px;
+  width: 650px;
   height: 80.048px;
   box-shadow: 5px 6px 0px 0px rgba(0, 0, 0, 0.25);
-  display: inline-flex;
+  display:flex;
   justify-content: center;
   align-items: center;
-  transform: translateY(-400px);
-  position: relative;
-  right: -340px;
+   position: relative;
+   top: -420px;
+   right: -420px;
+  
 }
 .below-testimonial-text {
   color: #26264f;
   text-align: center;
   font-size: 31px;
+  
 }
 .video {
-  /* overflow-x: hidden; */
-  /* position: absolute; */
-  /* display: flex; */
-  /* height: 100vh; */
-   transform: translateY(-210px); 
+  background: url(../../Assets/Landing\ page/Vid-Bg.svg);
+  max-height: 90%;
+  height: 210vh;
+   transform: translateY(-430px); 
+   display: flex;
+   justify-content: center;
+   align-items: center;
   /* height: 100px; */
 }
-.video-icons{
-  /* transform: translateY(-130px); */
-  display: flex;
-  /* padding: 4rem; */
-  /* justify-content: center; */
-  /* align-items: center; */
 
+.videoPlayer{
+  height: 35%;
+  width: 75vw;
+  border-radius: 2rem;
+  box-shadow: 0 0 10px #000;
 }
-.icon-seek{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.video-cutting {
-  position: relative;
-  transform: translateY(-12px);
-}
-.play-button{
-  width: 100%;
-  height: 100px;
-  display: flex;align-self: center;
-  transform: translateY(-800px);
-  margin: 2rem 0rem 10rem 0rem;
-}
-.half {
-  position: absolute;
-  left: 100px;
-  z-index: 20;
-  transform: translateY(-800px);
-}
-.full{
-  transform: translateY(-800px);
-}
+
+
 .faq {
-  
-  width: 90%;
+
+position:relative;
+width: 90%;
   max-width: 1000px;
   transform: translateY(-500px);
   margin: auto;
+  padding: 2.5rem 0rem 7rem 0rem;
   
 
 }
@@ -249,11 +233,11 @@
     align-items: center;
     width: 100%;
     max-width: 1000px;
-    height: 203px;
+    height: 180px;
     border-radius: 9.455px;
     background:#C59FFC;
     margin-top: 0px;
-    padding: 0.5em 2em;
+    padding: 0em 5em;
     
 
 }
@@ -300,7 +284,7 @@ background-image: url("../../Assets/Landing page/Vector2.svg");
 background-position: bottom left;
 background-repeat: no-repeat;
 background-size: contain;
-padding-bottom:24rem  ;
+padding-bottom:29rem  ;
 margin-top:-20rem;
 
 }
@@ -309,11 +293,17 @@ margin-top:-20rem;
     margin-bottom: 0px;
 }
 .sectionFaq{
-  margin: 0;
-  padding: 0;
+  margin-top: -80px;
+max-width: 100%;
 }
 .SectionFooter{
   margin:-4rem 0 0 0;
+}
+.footerText p{
+margin-bottom: -100px;
+}
+.footerText button{
+margin-top: 130px;
 }
 
 .backToTop{
@@ -321,10 +311,11 @@ margin-top:-20rem;
   top:35rem;
   left:80rem;
   /* background-color:red */
-  padding:0.8rem 1rem ;
+  padding: 0.7rem 1rem ;
   border-radius: 100rem;
   border: none;
-  font-size: 1.2rem;
+
+  /* font-size: 1.2rem; */
   font-weight: bold;
   background-color:var(--color-primary);
   color: white;
@@ -338,74 +329,3 @@ margin-top:-20rem;
 .hide {
   opacity: 0;
 }
-/* Existing CSS code */
-
-/* Media query for larger laptop screens */
-@media only screen and (min-width: 1366px) {
-  /* Adjustments for larger laptop screens */
-
-  .hero-section {
-    padding: 3rem;
-  }
-
-  .hero-text {
-    margin-right: 6rem;
-    margin-bottom: 6rem;
-  }
-
-  .hero-text h1 {
-    font-size: 5rem;
-  }
-
-  .hero-text p {
-    font-size: 2rem;
-  }
-
-  .hero-text button {
-    margin-top: 3rem;
-    padding: 1em 5em;
-    font-size: 1.2rem;
-  }
-
-  /* Additional adjustments for larger screens... */
-}
-
-/* Media query for standard laptop screens */
-@media only screen and (min-width: 1024px) and (max-width: 1365px) {
-  /* Adjustments for standard laptop screens */
-
-  .hero-section {
-    padding: 2.5rem;
-  }
-
-  .hero-text {
-    margin-right: 5rem;
-    margin-bottom: 5rem;
-  }
-
-  .hero-text h1 {
-    font-size: 4.5rem;
-  }
-
-  .hero-text p {
-    font-size: 1.8rem;
-  }
-
-  .hero-text button {
-    margin-top: 2.6rem;
-    padding: 0.9em 4em;
-    font-size: 1rem;
-  }
-
-  /* Additional adjustments for standard screens... */
-}
-
-/* Default styles for all screen sizes */
-/* Keep your existing styles here */
-.landing {
-  margin: 0;
-  padding: 0;
-  position: relative;
-}
-
-/* Other existing styles... */

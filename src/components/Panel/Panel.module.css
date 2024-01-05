@@ -1,12 +1,9 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
 .panel{
 align-items: center;
 margin:5rem;
 margin:auto;
-padding: 0rem 0rem 0rem 0rem;
-transform: translateY(-10px);
 
 }
 .panel div{
@@ -25,8 +22,5 @@ transform: translateY(-10px);
     font-size: 25px;
     font-weight: 550;
     font-style:normal;
-    transform: translateY(-30px);
     
-   
-
 }
