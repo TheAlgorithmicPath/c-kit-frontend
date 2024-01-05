@@ -30,3 +30,41 @@
 .Term-condition {
   margin-top: 37px;
 }
+@media screen and (max-width: 768px) {
+  .SignUp {
+    margin: 60px 1rem 0px 1rem;
+  }
+
+  .SignUp-form {
+    max-width: 350px;
+    padding: 1.5rem;
+  }
+
+  .SignUp-svg {
+    margin-left: -85px;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .SignUp {
+    margin: 40px 0.5rem 0px 0.5rem;
+  }
+
+  .SignUp-form {
+    max-width: 300px;
+    padding: 1rem;
+  }
+
+  .SignUp-svg {
+    display: none; 
+  }
+
+  .Have-account {
+    margin-top: 20px;
+  }
+
+  .Term-condition {
+    margin-top: 25px;
+  }
+}
