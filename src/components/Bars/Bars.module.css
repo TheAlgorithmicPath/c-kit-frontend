@@ -1,28 +1,28 @@
 .bars {
-    border-radius: 9.455px;
-    background: #aa80f9;
-    display: flex;
-    align-items: center;
-    padding: 0.5em 2em;
-    margin-top: 16px;
-    color: white;
-  }
-  
-  .bars p:nth-child(2) {
-    width: 100%;
-    padding: 0em 1em;
-  }
-  
-  .bars button {
-    background-color: transparent;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    font-size: 1.5rem;
-    color: white;
-  }
-  
-  .bars div,
-  .bars button {
-    width: 20px;
-  }
+  border-radius: 9.455px;
+  background: #aa80f9;
+  display: flex;
+  align-items: center;
+  padding: 1.2em 2em;
+  margin-top: 16px;
+  color: white;
+}
+
+.bars p:nth-child(2) {
+  width: 100%;
+  padding: 0em 1em;
+}
+
+.bars button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.bars div,
+.bars button {
+  width: 20px;
+}
