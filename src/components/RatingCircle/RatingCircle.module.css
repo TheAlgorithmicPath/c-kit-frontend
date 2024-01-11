@@ -1,0 +1,50 @@
+.rating-div {
+    height: 100px;
+    width: 100px;
+    position: relative;
+  }
+  .outer-circle {
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    border-radius: 50%;
+   
+    padding: 10px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+      -6px -6px 10px -1px rgba(225, 225, 225, 0.7);
+  }
+  .inner-circle {
+    height: 80px;
+    width: 80px;
+    box-sizing: border-box;
+    border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+      inset -4px -4px 6px -1px rgba(225, 225, 225, 0.7),
+      -0.5px -0.5px 0px rgba(225, 225, 225, 1), 
+      0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+      0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  }
+  .number{
+      font-weight: 600px;
+  
+  }
+  circle{
+      fill:none;
+      stroke:url(#GradientColor);
+      stroke-width: 10px;
+      stroke-dasharray:200;
+    
+      
+  }
+  svg{
+   
+      position: relative;
+      height: 20px;
+      width: 20px;
+      overflow: visible;
+    
+  }
+  

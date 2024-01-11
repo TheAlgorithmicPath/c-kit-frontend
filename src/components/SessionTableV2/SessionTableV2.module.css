@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height:80%;
+  }
+  .th,
+  td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  
+    color: black;
+    font-family: Noto Sans;
+    font-size: 15px;
+  
+    font-weight: 400;
+  }
+  
+  tr:hover:not(:first-child) {
+    background-color: #2f8b45;
+  
+  }
+  tr:hover:not(:first-child) td {
+    color: white; 
+  }
+ 
