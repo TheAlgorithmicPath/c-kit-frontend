@@ -1,0 +1,352 @@
+
+.profile-page2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  padding: 4em 3em 4em 3em;
+  margin: 0;
+  background: linear-gradient(#555, #555) 0% 0% / 100% 30%,
+    linear-gradient(#ececec, #ececec) 0% 100% / 100% calc(100% - 30%);
+  background-repeat: no-repeat;
+}
+.profile-page-column1 {
+    height: 65rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .profile-page-column2 {
+    height: 65rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  /* //////////////////////////////////////////////////////////////////////////////// */
+  .info-card {
+    height: 85%;
+    width:420px;
+    /* background-color: var(--color-light); */
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 1em;
+    position: relative;
+  }
+  .profile-pic{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left:150px;
+    top:-50px;
+    background-color: #E9E9E9;
+    position: absolute;
+ 
+  }
+  .profile-pic img{
+         height: 90px;
+         width: 90px;
+  }
+  .profile-pic button{
+    width: 100px;
+    height: 40px;
+    /* border-radius:  0 0 95px  95px; */
+    border-radius: 0 0 50% 50% / 0 0 100% 100% ;
+    margin-top: -20px;
+    border:none;
+    background-color: #E9E9E9;
+  }
+  .profile-pic button:hover{
+    background-color: #dad5d5;
+  }
+  
+  .profile-pic button img{
+    width: 90px;
+    height: 40px;
+  }
+
+
+  .info-card-content {
+    height: 95%;
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 50px;
+  }
+  .basic-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 12px;
+  }
+  .basic-detail-name {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .basic-detail-name h2 {
+    color: #000;
+    font-family: Calibri;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .basic-detail-name p {
+    color: #4a4747;
+    font-family: Calibri;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: -5px;
+    
+  }
+  .basic-detail-name span{
+    font-weight: 370;
+    margin-top: -15px;
+  
+  }
+
+  .figures {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .unfollow-request-btn {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    gap:17px;
+    flex-direction: row;
+    margin-top: -5px;
+    }
+  .unfollow-request-btn button {
+    display: flex;
+    width: 49%;
+    height: 80%;
+    padding: 15px 10px;
+    justify-content: center;
+    align-items: center;
+  
+    border-radius: 12px;
+    background: #dadada;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+  
+  }
+  .bio h1{
+  margin-bottom: 10px;
+  }
+  .bio p{
+font-size: 13.5px;
+margin-bottom: 10px;
+  }
+  
+  .skill{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -8px;
+    gap: 10px;
+  }
+  .skill-tab{
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    gap:15px;
+    flex-wrap: wrap;
+  
+  }
+  
+  .social-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+  .social-container img{
+    display: flex;
+    justify-content:space-between;
+    width:60px;
+    padding: 10px;
+  }
+  
+  /* ///////////////////////////////////////////////////////////////////////////////////////// */
+  .connect-card {
+    height: 40%;
+    width: 420px;
+    /* background-color: var(--color-light); */
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    position: relative;
+  }
+  .connect-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    bottom: 0;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--color-white);
+  }
+  .connect-content{
+    margin:1rem;
+    width: 90%;
+  height: 70%;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #E9E9E9;
+  box-shadow: 1px 1px 30px 0px rgba(152, 111, 224, 0.10);
+  padding:1em;
+  }
+  
+  
+  /* ////////////////////////////////////////////////////////////////////////////////////////////// */
+  .session-card {
+    height: 50%;
+    width: 100%;
+    /* background-color: var(--color-light); */
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .session-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 10%;
+    padding: 1em;
+  
+    border-radius: 20px;
+  }
+  .session-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--color-white);
+  }
+  .session-table-section {
+    height: 80%;
+    width: 100%;
+    padding: 15px;
+  }
+  /* ////////////////////////////////////////////////////////////////////////////////// */
+  .review-card {
+    height: 50%;
+    width: 100%;
+    /* background-color: var(--color-light); */
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .reveiwContent-section{
+    height: 100%;
+    width: 100%;
+    margin-top:50px;
+  }
+
+
+/* Media query for medium-sized screens */
+@media only screen and (max-width: 1200px) {
+  .profile-page2 {
+    padding: 3em;
+  }
+
+  .profile-page-column1,
+  .profile-page-column2 {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    margin-right: 0;
+  }
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .profile-page2 {
+    flex-direction: column;
+    padding: 2em;
+  }
+
+  .profile-page-column1,
+  .profile-page-column2 {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    margin-right: 0;
+  }
+
+  .info-card,
+  .connect-card,
+  .session-card,
+  .review-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Additional media queries as needed */
+@media only screen and (max-width: 480px) {
+  /* Add specific styles for screens with max-width: 480px */
+}
+@media only screen and (min-width: 1201px) {
+  .profile-page2 {
+    padding: 4em 3em;
+  }
+
+  .profile-page-column1 {
+    width: 30%;
+    max-width: none;
+    height: 65rem;
+    margin-right: 1.5rem;
+  }
+
+  .profile-page-column2 {
+    width: 70%;
+    max-width: none;
+    height: 65rem;
+    margin-right: 0;
+  }
+
+  .info-card,
+  .connect-card,
+  .session-card,
+  .review-card {
+    width: auto;
+    margin-bottom: 0;
+  }
+}
+
+
+
+
+
+
+
+
+  
