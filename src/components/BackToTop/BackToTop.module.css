@@ -1,0 +1,32 @@
+.btn-style {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 120px;
+    border-radius: 30px;
+    border: 2px solid grey;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  
+  .btn-style:hover {
+    background-color: #ddd;
+  }
+  
+  .content-wrapper img {
+    height: 80px;
+    width: 30px;
+  }
+  
+  .vertical-reverse-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: scaleY(-1) scaleX(-1);
+    white-space: nowrap;
+  }
+  
