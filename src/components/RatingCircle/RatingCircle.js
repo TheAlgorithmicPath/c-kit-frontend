@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import styles from "./RatingCircle.module.css";
 
 const RatingCircle = () => {
-  const [rating, setRating] = useState(4.5); // Example rating
+  const [rating, setRating] = useState(4); // Example rating
 
   useEffect(() => {
     const circle = document.getElementById("ratingCircle");
@@ -12,7 +12,7 @@ const RatingCircle = () => {
       const dashArray = (circumference * percentage) / 100;
       const dashOffset = circumference - dashArray;
 
-      circle.style.strokeDasharray = `${dashArray} ${circumference}`;
+      circle.style.strokeDasharray = `${circumference} ${circumference}`;
       circle.style.strokeDashoffset = dashOffset;
       circle.style.stroke = getFillColor(percentage); // Change the stroke color based on the percentage
     }
@@ -21,7 +21,7 @@ const RatingCircle = () => {
   // Function to determine the fill color based on the percentage
   const getFillColor = (percentage) => {
     if (percentage >= 75) {
-      return "#4CAF50"; // Green for higher ratings
+      return "#357960"; // Green for higher ratings
     } else if (percentage >= 50) {
       return "#FFC107"; // Yellow for mid-range ratings
     } else {
@@ -46,13 +46,14 @@ const RatingCircle = () => {
       >
         <circle
           id="ratingCircle"
-          cx="50"
-          cy="-50"
+          cx="150"
+          cy="50" // Adjust the cy value to center the circle
           r="45"
           strokeLinecap="round"
           fill="none"
           strokeWidth="10" // Adjust the stroke width as needed
           stroke="gray" // Initial stroke color
+          transform="rotate(-90 50 50)" // Rotate the circle to start from the top
         />
       </svg>
     </>
