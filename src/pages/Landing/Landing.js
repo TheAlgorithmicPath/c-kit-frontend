@@ -13,6 +13,7 @@ import image4 from "../../Assets/Landing page/”.svg";
 import image5 from "../../Assets/Landing page/Frame 28.svg";
 import Bars from "../../components/Bars/Bars";
 
+
 const Landing = () => {
   const [isVisible, setIsVisible] = useState(false);
 

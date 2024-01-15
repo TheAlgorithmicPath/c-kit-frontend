@@ -8,6 +8,7 @@ import ReadCard from "../../components/ReadCard/ReadCard";
 import senior from "../../Assets/LandingV2/senior 1.svg";
 import BarsV2 from "../../components/BarsV2/BarsV2";
 import laptopguy from "../../Assets/LandingV2/guy with laptop 1.svg";
+import herosvg from "../../Assets/LandingV2/thehero.svg";
 
 const LandingV2 = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -50,7 +51,8 @@ const LandingV2 = () => {
           </p>
           <button>Get Started</button>
         </div>
-        <div className={`${styles["hero-svg"]}`}></div>
+
+        <img src={herosvg} alt=""></img>
       </section>
 
       <section className={`${styles["benefit"]}`}>
@@ -150,7 +152,16 @@ const LandingV2 = () => {
 
             <div className={`${styles["how-it-works-img"]}`}></div>
           </div>
-          <div className={`${styles["how-it-works-vid"]}`}></div>
+          <div className={`${styles["how-it-works-vid"]}`}>
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/jHv63Uvk5VA"
+              frameborder="0"
+              allowfullscreen
+              title="youtube video "
+            ></iframe>
+          </div>
         </div>
       </section>
 
@@ -176,7 +187,7 @@ const LandingV2 = () => {
 
       <section className={`${styles["read"]}`}>
         <h3 className={`${styles["mg"]}`}>Why Teach?</h3>
-        <h1 className={`${styles["mg"]} ${styles["heading2"]}`}>
+        <h1 className={`${styles["mg"]} ${styles["read-heading"]}`}>
           Long established fact that a<br /> reader readable content
         </h1>
         <div className={`${styles["read-card-gp"]}`}>
@@ -296,13 +307,10 @@ const LandingV2 = () => {
                   SUBMIT
                 </div>
 
-                <input
+                <textarea
                   className={`${styles["form-item-3"]}`}
-                  type="text"
-                  id="lname"
-                  name="lastname"
-                  placeholder="Write Query"
-                />
+                  placeholder="Write Query.."
+                ></textarea>
               </form>
             </div>
           </section>
