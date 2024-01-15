@@ -4,6 +4,8 @@ const SessionTable = () => {
 
 
   const data = [
+
+    { id: '001122', by: '001122', to: '001122', topics: 'Topics Covered', status: 'Completed' },
     { id: '001122', by: '001122', to: '001122', topics: 'Topics Covered', status: 'Completed' },
     { id: '001122', by: '001122', to: '001122', topics: 'Topics Covered', status: 'Completed' },
     { id: '001122', by: '001122', to: '001122', topics: 'Topics Covered', status: 'Completed' },
