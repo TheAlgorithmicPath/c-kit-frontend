@@ -6,7 +6,7 @@ export default function Figure({ first, second })
       <div>
         <h3>{first}</h3>
       </div>
-      <span>{second}</span>
+      <span class={`${styles["figure-num"]}`}>{second}</span>
     </section>
   );
 }

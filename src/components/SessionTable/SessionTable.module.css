@@ -16,10 +16,10 @@ td {
   font-weight: 400;
 }
 
-tr:hover:not(:first-child) {
+/* tr:hover:not(:first-child) {
   background-color: var(--color-primary);
 
 }
 tr:hover:not(:first-child) td {
   color: white; 
-}
+} */

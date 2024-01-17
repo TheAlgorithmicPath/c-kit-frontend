@@ -8,7 +8,7 @@ const ReviewContent = () => {
       <div className={`${styles["review-content-header"]}`}>
         <div className={`${styles["review-content-header-left"]}`}>
           <img src={reviewProfile} alt="review-profile-pic"></img>
-          <div>
+          <div >
             <h1>FULL NAME</h1>
             <h3>Username</h3>
           </div>
