@@ -1,5 +1,5 @@
 import styles from "./Profile-V2.module.css";
-import { useRef,useState } from "react";
+import { useRef, useState } from "react";
 import SessionTableV2 from "../../components/SessionTableV2/SessionTableV2";
 import ReviewContentV2 from "../../components/ReviewContentV2/ReviewContentV2";
 import RatingCircle from "../../components/RatingCircle/RatingCircle";
@@ -12,10 +12,9 @@ import insta from "../../Assets/Profile/icons8-insta-104 1.png";
 import twitter from "../../Assets/Profile/download 3.png";
 import ProfilePic from "../../Assets/Profile/ProfilePic.png";
 
-
 const ProfileV2 = () => {
   // const messageRef = useRef();
-  const [message, setMessage] = useState('');
+  const [message, setMessage] = useState("");
 
   const handleInputChange = (event) => {
     setMessage(event.target.textContent);
@@ -34,7 +33,6 @@ const ProfileV2 = () => {
         <div className={`${styles["info-card"]}`}>
           <div className={`${styles["profile-pic"]}`}>
             <img src={ProfilePic} alt="Profile"></img>
-
           </div>
           <div className={`${styles["info-card-content"]}`}>
             <div className={`${styles["basic-detail"]}`}>
@@ -95,13 +93,20 @@ const ProfileV2 = () => {
         </div>
         <div className={`${styles["connect-card"]}`}>
           <div className={`${styles["connect-header"]}`}>
-            <h1>Connect</h1>
+            <h1>Message</h1>
           </div>
-         <div className={`${styles["connect-content"]} ${message ? styles['filled'] : ''}`}
+          <div
+            className={`${styles["connect-content"]} ${
+              message ? styles["filled"] : ""
+            }`}
             contentEditable
             onInput={handleInputChange}
           >
-              {!message && <span className={styles['placeholder']}>Write your message here...</span>}
+            {!message && (
+              <span className={styles["placeholder"]}>
+                Write your message here...
+              </span>
+            )}
           </div>
 
           <button
@@ -123,7 +128,7 @@ const ProfileV2 = () => {
           <div className={`${styles["session-table-section"]}`}>
             <SessionTableV2 />
           </div>
-           <button
+          <button
             className={`${styles["session-footer"]} ${
               clickedButton === 2 ? styles["clicked"] : ""
             }`}
@@ -137,16 +142,22 @@ const ProfileV2 = () => {
           <div className={`${styles["session-header"]}`}>
             <h1>Reveiws</h1>
           </div>
-
+          <div className={`${styles["filter-section"]}`} >
+            <p>Most Relevant</p>
+            <div className={`${styles["filter-icon"]}`}>
+              <div className={`${styles["filter-bar"]}`}></div>
+              <div className={`${styles["filter-bar"]}`}></div>
+              <div className={`${styles["filter-bar"]}`}></div>
+            </div>
+          </div>
           <div className={`${styles["reveiwContent-section"]}`}>
             <ReviewContentV2 />
             <ReviewContentV2 />
             <ReviewContentV2 />
-            
           </div>
 
           <button
-            className={`${styles["session-footer"]} ${
+            className={`${styles["Review-footer"]} ${
               clickedButton === 3 ? styles["clicked"] : ""
             }`}
             onClick={() => handleButtonClick(3)}

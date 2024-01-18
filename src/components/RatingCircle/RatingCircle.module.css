@@ -2,6 +2,7 @@
     height: 100px;
     width: 100px;
     position: relative;
+    /* margin-left:3px; */
   }
   .outer-circle {
     height: 100px;

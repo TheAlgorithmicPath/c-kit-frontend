@@ -21,6 +21,10 @@
     align-items: center;
    justify-content: space-around;
   }
+  .review-content-header-left img{
+    height:70px;
+    width: 70px;
+  }
   .review-content-header-left h1{
     font-size: 21px;
     font-family: Noto Sans;
@@ -36,6 +40,8 @@
     display: flex;
     flex-direction: column;
     align-items: left;
+    margin-left:.5em;
+    margin-top:.5em;
 
   }
   .review-content-header-right {
@@ -59,9 +65,11 @@
   .review-content-para {
     color: #707070;
     font-family: Noto Sans;
-    font-size: 1rem;
-  
+    font-size: .9rem;
+   padding-top:1em;
     font-weight: 400;
   
   }
-  
+  .review-header-right-date {
+    margin-bottom:0.3rem;
+  }
