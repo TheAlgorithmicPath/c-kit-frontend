@@ -98,6 +98,10 @@ button {
   font-family: Inter;
   font-weight: 600;
 }
+/* TESTIMONIAL */
+.testimonial {
+  margin-bottom: 8rem;
+}
 /* TAGLINE */
 .tag-line h1 {
   color: #000;
@@ -401,4 +405,22 @@ input[type="text"]:focus {
 }
 textarea:focus {
   background-color: lightblue;
+}
+
+/* FOOTER */
+.landing-footer {
+  width: 84vw;
+  height: 2px;
+  background-color: grey;
+  margin-top: 2rem;
+  margin-left: -7rem;
+}
+.landing-footer-content {
+  text-align: center;
+  margin-top: 1rem;
+  color: #000;
+  text-align: center;
+  font-family: Noto Sans;
+  font-style: italic;
+  font-weight: 300;
 }
