@@ -1,0 +1,23 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+.panel h2 {
+  color: #a7a7a7;
+  font-family: Rubik;
+  font-size: 39.325px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 129.023%; /* 50.738px */
+}
+.panel p {
+  color: #a7a7a7;
+  font-family: Rubik;
+  font-size: 29.325px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 129.023%; /* 50.738px */
+}
