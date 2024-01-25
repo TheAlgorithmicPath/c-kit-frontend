@@ -1,0 +1,45 @@
+.bars {
+  border-radius: 9.455px;
+  background: #273239;
+  display: flex;
+  padding: 1em 2em;
+  margin: 1rem 1rem 0 4rem;
+  color: white;
+}
+
+.questionWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.questionWrapper p {
+  padding-right: 5rem;
+}
+.questionWrapper button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+  padding-left: 8em;
+}
+
+.Q {
+  padding: 1em;
+}
+
+.bar-content {
+  border-radius: 0 0 7.052px 7.052px;
+  background: #525c62;
+  color: #fff;
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: justify;
+  padding: 2em;
+  margin-left: 4.9em;
+  margin-right: 1.3em;
+  margin-top: -4px;
+}

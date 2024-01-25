@@ -1,0 +1,63 @@
+.testimonial-slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #273239;
+  border-radius: 10px;
+  color: white;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.testimonial-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 2rem 0;
+}
+
+.testimonial-left h3 {
+  font-family: "Noto Sans";
+  font-size: 13px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.testimonial-img {
+  width: 60vw;
+  border-radius: 50%;
+}
+
+.testimonial-content {
+  flex-grow: 1;
+  display: flex;
+  padding-left: 1rem;
+}
+.left-comma {
+  margin-top: -7rem;
+  margin-right: 0.5rem;
+}
+.right-comma {
+  margin-top: 5rem;
+  transform: rotate(180deg);
+}
+.slider-arrows {
+  display: flex;
+}
+
+.slider-arrows button {
+  font-size: 24px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  margin: 0 10px;
+}

@@ -6,11 +6,11 @@ function Header() {
       <div className={`${styles["logo"]}`}>Brand-Name</div>
 
       <div className={`${styles["header-right"]}`}>
-       <div> 
-        <a  href="#Home"> Home</a>
-        <div className={`${styles["active"]}`}></div>    
-       </div> 
-        
+        <div>
+          <a href="#Home"> Home</a>
+          <div className={`${styles["active"]}`}></div>
+        </div>
+
         <a href="#Benefits">Benefits</a>
         <a href="#Testimonials">Testimonials</a>
         <a href="#Contact">Contact Us</a>
