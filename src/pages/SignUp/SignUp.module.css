@@ -30,6 +30,10 @@
 .Term-condition {
   margin-top: 37px;
 }
+.error-message{
+   color:red;
+   
+}
 @media screen and (max-width: 768px) {
   .SignUp {
     margin: 60px 1rem 0px 1rem;
@@ -57,7 +61,7 @@
   }
 
   .SignUp-svg {
-    display: none; 
+    display: none;
   }
 
   .Have-account {
